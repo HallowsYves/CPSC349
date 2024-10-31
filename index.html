@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CPSC349-2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="form-container">
+    <form class="login-form">
+        <!--Form setup -->
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Username">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password">
+        <!--radio button setup -->
+            <div class="radio-group">
+                <p>Creature</p>
+                <label><input type="radio" name="creature" value="Ghost"> Ghost</label>
+                <label><input type="radio" name="creature" value="Werewolf"> Werewolf</label>
+                <label><input type="radio" name="creature" value="others"> Others</label>
+            </div>
+
+        <!--checkbox button setup -->
+        <div class="checkbox-group">
+            <p>Programming</p>
+            <label><input type="checkbox" name="programming" value="Java"> Java</label>
+            <label><input type="checkbox" name="programming" value="csharp"> C#</label>
+            <label><input type="checkbox" name="programming" value="cpp"> C++</label>
+        </div>
+        <!--dropdown menu setup -->
+        <label for="fruit">Favorite Fruit</label>
+        <select id="fruit">
+            <option>Boo-nana</option>
+            <option>Ghoul-Apple</option>
+            <option>Blood Orange</option>
+        </select>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" placeholder="Enter some text"></textarea>
+
+        <div class="button-group">
+            <button type="submit" class="btn">Send</button>
+            <button type="reset" class="btn">Reset</button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
